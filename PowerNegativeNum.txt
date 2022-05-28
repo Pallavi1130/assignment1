@@ -1,0 +1,21 @@
+/*37. Compute Power of Negative Number
+
+O/P : 
+Enter Base : -4
+Enter Power : 2
+4^2 = 16
+
+Enter Base : -4
+Enter Power : 3
+4^2 = -64*/
+public class PowerNegativeNum {
+
+	public static void main(String[] args) {
+			   
+			    int base = -4, exponent = 3;
+			    
+			    double result = Math.pow(base, exponent);
+			    
+			    System.out.println("Answer = " + result);
+			  }
+			}
